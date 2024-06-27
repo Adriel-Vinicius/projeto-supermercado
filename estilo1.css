@@ -1,0 +1,300 @@
+@charset "UTF-8";
+
+html {
+    height: 100%;
+    width: 100%;
+  }
+
+/*----------------------------------------------------------*/
+ 
+/*PALETA DE CORES
+
+#DB400 LARANJA ESCURO
+#FE6A2D LARANJA CLARO
+#8d3601 LARANJA SOMBRA
+
+.. abre a pasta anterior entra em outras  exp(../fonts/sansserif)
+*/
+
+/*----------------------------------------------------------*/
+
+:root { /*psudo classe raiz do documento*/
+
+    --cor1: rgb(255, 255, 255);
+    --cor2: #DB5400;
+    --cor3: #FE6A2D;
+    --cor4: #8d3601;
+
+    --font-padrao: arial, Helvetica, sans-serif;
+    --font-destaque: #;
+}
+
+
+
+.bottonitens {
+
+  background-color: var(--cor2);
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 40px;
+}
+
+
+ 		
+/*=========================================FORMAS DE PAGAMENTO=======================================*/
+.externo1 {
+  background-color: var(--cor2);
+  height: 50vw;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 35px;
+
+}
+
+
+
+.externo2 {
+  background-color: var(--cor2);
+  width: 100%;
+  border-radius: 35px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.circle {
+  background-color: var(--cor3);
+  width: 31%;
+  height: 45%;
+  border-radius: 100%;
+  margin-left: 3px;
+  
+
+
+  color: #ffffff;
+  text-align: center;
+  font-size: 5vw;
+
+  
+  
+
+}
+
+.circle2 {
+  background-color: var(--cor3);
+  width: 31%;
+  height: 45%;
+  border-radius: 100%; 
+  
+  text-align: left;
+  color: #ffffff;
+  font-size: 3vw;
+
+  
+  
+  padding: 0px 0px 0px 10px;
+
+  
+}
+/*===================================================================================================*/	
+/*===========================DESENHANDO BOTAO NOSSA "HOSTORIA"========================*/
+
+.externo {
+  background-image: url(imagem/setel.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 97vw;
+  height: 500px;
+  border-radius: 35px;
+  margin: auto;
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+}
+
+.interno {
+  font-size: 1.5em;
+  text-align: center;
+  width: 100%;
+  height: 50%;
+  background-color: #FE6A2D;
+  border-radius: 35px;
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+}
+
+.d1 {
+  color: #ffffff;
+  border: solid #ffffff;
+  border-width: 0px 2px 0px 0px;
+
+}
+
+.d2 {
+  color: #ffffff;
+  margin: 0px 0px 40px 0px;
+}
+
+.d3 {
+  color: #ffffff;
+  border: solid #ffffff;
+  border-width: 0px 0px 0px 2px;
+}
+
+.nossa {
+
+  font-size: 2.5vw;
+  color: #ffffff;
+  height: 65px;
+  width: 80%;
+  text-align: center;
+  background-color: #DB4000;
+  border: solid #DB4000;
+  box-shadow: 5px 5px 10px #8d3601;
+  border-radius: 30px;
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nossa:hover {
+  background-color: #D65403;	
+  color: #AAA8A8;	
+  border: solid #D65403;
+}
+
+/*===================================================================================================*/
+
+
+
+body {
+  background-color: var(--cor1);
+}
+
+header > h1 {
+  text-align: right;
+  font-size: 5vw;
+  font-family: serif;
+  color: var(--cor1);
+  padding: 0px;
+  min-width: 400px;
+}
+
+h2 {
+    font-size: 7vw;
+    font-weight: bolder;
+}
+
+
+footer {
+  height: 100%;
+  width: 100%;
+  background-color: var(--cor1);
+  font-size: 18px;
+  font-family: serif;
+  color: #000000;
+  text-align: center;
+  border-top: 1px solid #000000;
+
+}
+
+header {
+  padding: 1px 0px 1px 0px;
+  font-family: serif;
+  width: 96vw;
+  margin: auto;
+  background-image: linear-gradient(to right, var(--cor2) 30%, #F69A1F);
+  border: 1px solid var(--cor1);
+  
+  
+}
+
+nav {
+    text-align: center;
+    background-color: var(--cor2);
+    width: 96vw;
+    border: 1px solid var(--cor1);
+}
+
+a {
+    margin: 40px;
+    background-color: #db540000; 
+    border: none;
+    color: var(--cor1);
+    padding: 4px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block; /*FORÇA NIVEL DE BLOCO VIRAR NIVEL DE LINHA*/
+    font-size: 13px;
+    margin: 4px 2px;
+    transition-duration: 0,4s; /*TEMPO DE TRANSIÇÃO DO HOVER*/
+    cursor: pointer; /*MUDA O CURSOR DO MUSE*/
+}
+
+a:hover {
+    color: rgb(170, 168, 168);					
+}
+
+.botoems {
+    background-color: var(--cor2);
+    margin: auto;
+  }
+
+
+main {
+    text-align: center;
+    border: 1px solid var(--cor1);
+    margin: auto;
+    background-color: var(--cor1);
+
+}
+
+article {
+    width: 96vw;
+    text-align: center;
+    margin: auto;
+}
+
+
+div.mapa {
+  background-color: #e9e7e7;
+  width: 80vw;
+  height: 500px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  padding: 10px;
+  text-align: left;
+  color: #000000;
+  line-height: 40px;
+  padding-bottom: 0px;
+}
+
+div.mapa > h1 {
+
+  color: var(--cor2);
+  font-size: 3em;
+  font-weight: bolder;
+}
+
+iframe {
+
+  width: 96vw;
+
+}
+
+.spanmapa {
+  font-weight: bolder;
+
+}
+
