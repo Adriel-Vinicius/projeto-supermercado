@@ -43,7 +43,6 @@ html {
 }
 
 
-<<<<<<< HEAD
  		
 /*=========================================FORMAS DE PAGAMENTO=======================================*/
 .externo1 {
@@ -111,13 +110,6 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
   width: 97vw;
-=======
- /*===========================DESENHANDO BOTAO NOSSA "HOSTORIA"========================*/
-
- .externo {
-  background-image: url(imagem/setel.png);
-  width: 100%;
->>>>>>> c69bdd3faf674c5c5ef915d2a11d46fa68ddc0f6
   height: 500px;
   border-radius: 35px;
   margin: auto;
@@ -127,95 +119,48 @@ html {
 }
 
 .interno {
-<<<<<<< HEAD
   font-size: 1.5em;
-=======
-  font-size: 21px;
->>>>>>> c69bdd3faf674c5c5ef915d2a11d46fa68ddc0f6
   text-align: center;
   width: 100%;
   height: 50%;
   background-color: #FE6A2D;
   border-radius: 35px;
   display: flex;
-<<<<<<< HEAD
   align-items: center; 
   justify-content: center;
-=======
-  align-items: flex-end; 
->>>>>>> c69bdd3faf674c5c5ef915d2a11d46fa68ddc0f6
 }
 
 .d1 {
   color: #ffffff;
-<<<<<<< HEAD
   border: solid #ffffff;
   border-width: 0px 2px 0px 0px;
 
-=======
-  margin: 0px 0px 40px 0px;
-  border: solid #ffffff;
-  border-width: 0px 2px 0px 0px;
-  border-top: #FE6A2D;
-  border-left: #FE6A2D;
-  border-bottom: #FE6A2D;
-  padding: 100px 80px 0px 50px; 
->>>>>>> c69bdd3faf674c5c5ef915d2a11d46fa68ddc0f6
 }
 
 .d2 {
   color: #ffffff;
-<<<<<<< HEAD
   margin: 0px 0px 40px 0px;
-=======
-  margin: 0px 110px 40px 110px;
-  padding: 0px 0px 0px 0px;
->>>>>>> c69bdd3faf674c5c5ef915d2a11d46fa68ddc0f6
 }
 
 .d3 {
   color: #ffffff;
-<<<<<<< HEAD
   border: solid #ffffff;
   border-width: 0px 0px 0px 2px;
-=======
-  margin: 0px 0px 40px 0px;
-  border: solid #ffffff;
-  border-width: 0px 0px 0px 2px;
-  border-top: #FE6A2D;
-  border-right: #FE6A2D;
-  border-bottom: #FE6A2D;
-  padding: 100px 50px 0px 80px; 
-  display: flex;
-  align-items: end;
-  justify-content: flex-end;
->>>>>>> c69bdd3faf674c5c5ef915d2a11d46fa68ddc0f6
 }
 
 .nossa {
 
-<<<<<<< HEAD
   font-size: 2.5vw;
   color: #ffffff;
   height: 65px;
   width: 80%;
-=======
-  font-size: 18px;
-  color: #ffffff;
-  height: 45px;
-  width: 100%;
->>>>>>> c69bdd3faf674c5c5ef915d2a11d46fa68ddc0f6
   text-align: center;
   background-color: #DB4000;
   border: solid #DB4000;
   box-shadow: 5px 5px 10px #8d3601;
   border-radius: 30px;
-<<<<<<< HEAD
   margin: auto;
   margin-top: 50px;
-=======
-  margin: 50px 0px 0px 0px;
->>>>>>> c69bdd3faf674c5c5ef915d2a11d46fa68ddc0f6
   display: flex;
   align-items: center;
   justify-content: center;
@@ -226,56 +171,8 @@ html {
   color: #AAA8A8;	
   border: solid #D65403;
 }
-<<<<<<< HEAD
 
 /*===================================================================================================*/
-=======
-/*===================================================================================================*/		
-/*=========================================FORMAS DE PAGAMENTO=======================================*/
-.externo2 {
-  background-color: #DB4000;
-  width: 100%;
-  height: 46%;
-  border-radius: 35px;
-  margin: auto;
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-end;
-}
-
-.circle {
-  background-color: #FE6A2D;
-  width: 30%;
-  height: 50%;
-  border-radius: 100%;
-  margin: 0px 0px 0px 3px;
-
-  display: flex;
-  align-items: start;
-  justify-content: flex-start;
-  color: #ffffff;
-  text-align: left;
-  font-size: 4 00%;
-  padding: 0px 0px 0px 20px;
-
-}
-
-.circle2 {
-  background-color: #FE6A2D;
-  width: 390px;
-  height: 390px;
-  border-radius: 100%; 
-  margin: 0px 0px 105px 413px;
-
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  color: #ffffff;
-  font-size: 30px;
-  padding: 0px 0px 0px 0px;
-}
-/*===================================================================================================*/	
->>>>>>> c69bdd3faf674c5c5ef915d2a11d46fa68ddc0f6
 
 
 
@@ -285,11 +182,7 @@ body {
 
 header > h1 {
   text-align: right;
-<<<<<<< HEAD
   font-size: 5vw;
-=======
-  font-size: 2em;
->>>>>>> c69bdd3faf674c5c5ef915d2a11d46fa68ddc0f6
   font-family: serif;
   color: var(--cor1);
   padding: 0px;
@@ -297,11 +190,7 @@ header > h1 {
 }
 
 h2 {
-<<<<<<< HEAD
     font-size: 7vw;
-=======
-    font-size: 4em;
->>>>>>> c69bdd3faf674c5c5ef915d2a11d46fa68ddc0f6
     font-weight: bolder;
 }
 
@@ -321,30 +210,18 @@ footer {
 header {
   padding: 1px 0px 1px 0px;
   font-family: serif;
-<<<<<<< HEAD
   width: 96vw;
-=======
-  width: 100%;
->>>>>>> c69bdd3faf674c5c5ef915d2a11d46fa68ddc0f6
   margin: auto;
   background-image: linear-gradient(to right, var(--cor2) 30%, #F69A1F);
   border: 1px solid var(--cor1);
   
-<<<<<<< HEAD
   
-=======
-  max-width: 1200px;
->>>>>>> c69bdd3faf674c5c5ef915d2a11d46fa68ddc0f6
 }
 
 nav {
     text-align: center;
     background-color: var(--cor2);
-<<<<<<< HEAD
     width: 96vw;
-=======
-    width: 100%;
->>>>>>> c69bdd3faf674c5c5ef915d2a11d46fa68ddc0f6
     border: 1px solid var(--cor1);
 }
 
@@ -382,15 +259,11 @@ main {
 }
 
 article {
-<<<<<<< HEAD
     width: 96vw;
-=======
->>>>>>> c69bdd3faf674c5c5ef915d2a11d46fa68ddc0f6
     text-align: center;
     margin: auto;
 }
 
-<<<<<<< HEAD
 
 div.mapa {
   background-color: #e9e7e7;
@@ -425,5 +298,3 @@ iframe {
 
 }
 
-=======
->>>>>>> c69bdd3faf674c5c5ef915d2a11d46fa68ddc0f6
