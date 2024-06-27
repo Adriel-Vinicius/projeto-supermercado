@@ -1,2 +1,2 @@
 # projeto-supermercado
- projeto de site de supercado simples
+ projeto de site de supermercado simples
